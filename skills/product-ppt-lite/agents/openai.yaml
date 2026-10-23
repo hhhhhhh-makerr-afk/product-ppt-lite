@@ -1,0 +1,13 @@
+interface:
+  display_name: 产品介绍 PPT 排版 · Lite
+  short_description: 把产品资料转成规划、逐页视觉提示词与产品画册，保留事实，先做代表页
+  default_prompt: 使用 $product-ppt-lite，读取产品资料和参考图，先输出规划与覆盖表，再给逐页视觉提示词并制作代表页；有工具时交付可编辑PPTX。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
